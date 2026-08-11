@@ -69,3 +69,6 @@ crashlytics-build.properties
 
 # Node modules that can end up bundled in packages
 node_modules/
+
+# Blender backup files
+*.blend1
