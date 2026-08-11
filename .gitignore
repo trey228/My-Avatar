@@ -73,3 +73,6 @@ node_modules/
 # Blender backup files
 *.blend1
 *.blend1.meta
+
+# Editor diagnostic screenshots
+/[Aa]ssets/[Ss]creenshots/
