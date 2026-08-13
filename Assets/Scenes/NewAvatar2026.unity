@@ -318,6 +318,127 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 498755138}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &654273003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654273004}
+  - component: {fileID: 654273005}
+  m_Layer: 0
+  m_Name: Dances - Flair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &654273004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654273003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 740713770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654273005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654273003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1417.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8361654279834435586
+  references:
+    version: 2
+    RefIds:
+    - rid: 8361654279834435586
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Dances/Flair
+        state:
+          actions:
+          - rid: 8361654279834435587
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: GoGoDance
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8361654279834435587
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: -203655887218126122, guid: 4ad9cd0d510037d4c9228d0a1ded2512,
+            type: 3}
 --- !u!1 &740713769
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,9 +469,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 189939525}
+  - {fileID: 654273004}
   - {fileID: 974638674}
   - {fileID: 945020960}
-  - {fileID: 1401747652}
   m_Father: {fileID: 936369670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &861827401
@@ -1191,122 +1312,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -75.273, z: -90}
---- !u!1 &1401747651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1401747652}
-  - component: {fileID: 1401747653}
-  m_Layer: 0
-  m_Name: Dances - Flair (Standalone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1401747652
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401747651}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 740713770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1401747653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401747651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 8361654279834435594
-  references:
-    version: 2
-    RefIds:
-    - rid: 8361654279834435594
-      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 4
-        controllers:
-        - controller:
-            version: 1
-            fileID: 0
-            guid: 
-            id: 
-            objRef: {fileID: 9100000, guid: fc67aff08fc41b748971c4347e83eeaf, type: 2}
-          type: 5
-        menus:
-        - menu:
-            version: 1
-            fileID: 0
-            guid: 
-            id: 
-            objRef: {fileID: 11400000, guid: b03a1180db65b554db2d48a5b0f7492c, type: 2}
-          prefix: Dances
-        prms:
-        - parameters:
-            version: 1
-            fileID: 0
-            guid: 
-            id: 
-            objRef: {fileID: 11400000, guid: 204dce3425e61e3439c27316a2bf9e95, type: 2}
-        smoothedPrms: []
-        globalParams: []
-        allNonsyncedAreGlobal: 0
-        ignoreSaved: 0
-        toggleParam: 
-        rootObjOverride: {fileID: 0}
-        rootBindingsApplyToAvatar: 0
-        rewriteBindings: []
-        allowMissingAssets: 0
-        injectParams: []
-        injectSpsDepthParam: 
-        injectSpsVelocityParam: 
-        controller:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        menu:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        parameters:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        submenu: 
-        removePrefixes: []
-        addPrefix: 
-        useSecurityForToggle: 0
 --- !u!1 &1457057400
 GameObject:
   m_ObjectHideFlags: 0
