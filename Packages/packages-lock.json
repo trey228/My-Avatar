@@ -162,6 +162,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.vrcfury.temp": {
+      "version": "file:com.vrcfury.temp",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "file:com.vrcfury.vrcfury",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.vrchat.avatars": {
       "version": "file:com.vrchat.avatars",
       "depth": 0,
@@ -191,6 +203,13 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
+    },
+    "lyuma.av3emulator": {
+      "version": "https://github.com/lyuma/Av3Emulator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "543bb0d370d4f5e9d53f698806ba58a82b7f3aac"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

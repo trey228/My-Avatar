@@ -8,6 +8,9 @@
     },
     "com.vrchat.avatars": {
       "version": "3.10.4"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1417.0"
     }
   },
   "locked": {
@@ -24,6 +27,10 @@
       "dependencies": {
         "com.vrchat.base": "3.10.4"
       }
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1417.0",
+      "dependencies": {}
     }
   }
 }
