@@ -1043,8 +1043,8 @@ MonoBehaviour:
           guid: 
           id: 
           objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
+        enableDriveGlobalParam: 1
+        driveGlobalParam: Go/Action
         separateLocal: 0
         localState:
           actions: []
