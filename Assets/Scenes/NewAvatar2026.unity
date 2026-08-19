@@ -123,126 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &189939524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 189939525}
-  - component: {fileID: 189939526}
-  m_Layer: 0
-  m_Name: Dances - Bboy Hip Hop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &189939525
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189939524}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 740713770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &189939526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189939524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 8361654279834435586
-  references:
-    version: 2
-    RefIds:
-    - rid: 8361654279834435586
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: Dances/Bboy Hip Hop
-        state:
-          actions:
-          - rid: 8361654279834435587
-        saved: 0
-        slider: 0
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 1
-        exclusiveTag: GoGoDance
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 0
-        globalParam: 
-        holdButton: 0
-        invertRestLogic: 0
-        expandIntoTransition: 1
-    - rid: 8361654279834435587
-      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        clip:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 7400000, guid: 5d998d70963fcfa4baab1d64ede2071d, type: 2}
 --- !u!1001 &498755138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,7 +316,7 @@ MonoBehaviour:
           fileID: 0
           guid: 
           id: 
-          objRef: {fileID: 7400000, guid: d07cfd4e46a8c6b4786e989b16b382f9, type: 2}
+          objRef: {fileID: 7400000, guid: 4f7de3eb04d1a0b49a30af8821675470, type: 2}
 --- !u!1 &740713769
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +346,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 189939525}
   - {fileID: 654273004}
   - {fileID: 974638674}
   - {fileID: 945020960}
@@ -1081,7 +960,7 @@ MonoBehaviour:
           fileID: 0
           guid: 
           id: 
-          objRef: {fileID: 7400000, guid: 4ae80237873904e44a6ae27601362f37, type: 2}
+          objRef: {fileID: 7400000, guid: 61db9e2dfcad228489a876c704978db3, type: 2}
 --- !u!1 &974638673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,7 +1080,7 @@ MonoBehaviour:
           fileID: 0
           guid: 
           id: 
-          objRef: {fileID: 7400000, guid: fd22e35d63b10e844bc35d3cf85bd627, type: 2}
+          objRef: {fileID: 7400000, guid: 4bcc10da54460fc499d76dec0e4c381d, type: 2}
 --- !u!1 &1162610473
 GameObject:
   m_ObjectHideFlags: 0
