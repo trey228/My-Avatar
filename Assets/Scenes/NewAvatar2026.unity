@@ -192,7 +192,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -1723418657594159470, guid: 19d450027e1f0c04fb2acd832cf17b42, type: 3}
+  m_Mesh: {fileID: 4300000, guid: a70bb3e4416442e45a168bb9817909dd, type: 2}
   m_Bones:
   - {fileID: 710978672}
   - {fileID: 1431281319}
@@ -2432,8 +2432,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -1723418657594159470, guid: 19d450027e1f0c04fb2acd832cf17b42,
-        type: 3}
+      objectReference: {fileID: 4300000, guid: a70bb3e4416442e45a168bb9817909dd, type: 2}
     - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2478,8 +2477,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -1716110407043338123, guid: 19d450027e1f0c04fb2acd832cf17b42,
-        type: 3}
+      objectReference: {fileID: 4300000, guid: 613a7f134918a874b98fa5d1a809a125, type: 2}
     - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -4192,7 +4190,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -1716110407043338123, guid: 19d450027e1f0c04fb2acd832cf17b42, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 613a7f134918a874b98fa5d1a809a125, type: 2}
   m_Bones:
   - {fileID: 710978672}
   - {fileID: 1431281319}
