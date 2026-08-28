@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -2058,7 +2058,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 
+          id: 4f7de3eb04d1a0b49a30af8821675470|Assets/it_trey_avatar_vrchat/files/flair.anim
           objRef: {fileID: 7400000, guid: 4f7de3eb04d1a0b49a30af8821675470, type: 2}
 --- !u!1 &710978671
 GameObject:
@@ -2357,6 +2357,36 @@ PrefabInstance:
         type: 3}
     - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.0013756156
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.14751995
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.010766339
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.901759
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.9997517
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.5789495
+      objectReference: {fileID: 0}
+    - target: {fileID: -6139587097367294565, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 658a61e309fc7014babc81c987fbc7d5, type: 2}
@@ -2375,12 +2405,47 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -86660355763864230, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -688981392158982766, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.004310444
+      objectReference: {fileID: 0}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.14430857
+      objectReference: {fileID: 0}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.01883357
+      objectReference: {fileID: 0}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.9091692
+      objectReference: {fileID: 0}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1.0046743
+      objectReference: {fileID: 0}
+    - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.58439714
+      objectReference: {fileID: 0}
     - target: {fileID: 207837318496444545, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -2404,6 +2469,36 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.004466802
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.14354126
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.021279592
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.9073913
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.9918683
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.5826606
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271202493979917479, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2420,6 +2515,36 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.0004056096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.14989905
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.013960052
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.9120505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.99586165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.57782876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298001596650767120, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2433,6 +2558,36 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: a70bb3e4416442e45a168bb9817909dd, type: 2}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.00014328957
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.143712
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.012793251
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.9157978
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1.0039221
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.5866429
+      objectReference: {fileID: 0}
     - target: {fileID: 4770274951455487911, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2473,11 +2628,46 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[7]
       value: 
       objectReference: {fileID: 2100000, guid: eddd28882176e6a4e96ada96afbef775, type: 2}
+    - target: {fileID: 4810715106690459859, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 613a7f134918a874b98fa5d1a809a125, type: 2}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.0007405756
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.14516607
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.012091209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.90419596
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.99374425
+      objectReference: {fileID: 0}
+    - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.5788366
+      objectReference: {fileID: 0}
     - target: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -2487,13 +2677,48 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c99c12bd0423eb047a78ffb7bb108bf0, type: 2}
+      objectReference: {fileID: 2100000, guid: 4441625385a40bf4a8340c6cfbbe7ed3, type: 2}
+    - target: {fileID: 5710275718749792562, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -5713345300305661530, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.00020630378
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.1430016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.011446583
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.9072877
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.9977576
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.58587843
+      objectReference: {fileID: 0}
     - target: {fileID: 8409686221831431966, guid: 19d450027e1f0c04fb2acd832cf17b42,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -2504,7 +2729,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 11564140b78df544a90b3314fb5dc899, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 19d450027e1f0c04fb2acd832cf17b42, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 19d450027e1f0c04fb2acd832cf17b42,
@@ -2528,6 +2754,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 861827406}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 936369672}
+    - targetCorrespondingSourceObject: {fileID: -86660355763864230, guid: 19d450027e1f0c04fb2acd832cf17b42,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1806989838}
   m_SourcePrefab: {fileID: 100100000, guid: 19d450027e1f0c04fb2acd832cf17b42, type: 3}
 --- !u!1 &861827402 stripped
 GameObject:
@@ -2613,7 +2847,7 @@ MonoBehaviour:
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   networkIDs: []
-  customExpressions: 0
+  customExpressions: 1
   expressionsMenu: {fileID: 0}
   expressionParameters: {fileID: 0}
   enableEyeLook: 1
@@ -2686,7 +2920,7 @@ MonoBehaviour:
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 861827405}
     eyelidsBlendshapes: 0f000000ffffffffffffffff
-  customizeAnimationLayers: 0
+  customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
     type: 0
@@ -2732,7 +2966,7 @@ MonoBehaviour:
   AnimationPreset: {fileID: 0}
   animationHashSet: []
   autoFootsteps: 1
-  autoLocomotion: 1
+  autoLocomotion: 0
   collider_head:
     isMirrored: 1
     state: 0
@@ -3024,6 +3258,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 861827401}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &936369672
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861827402}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 19d450027e1f0c04fb2acd832cf17b42, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &945020959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,7 +3325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -3142,7 +3397,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 
+          id: 61db9e2dfcad228489a876c704978db3|Assets/it_trey_avatar_vrchat/files/salsa.anim
           objRef: {fileID: 7400000, guid: 61db9e2dfcad228489a876c704978db3, type: 2}
 --- !u!1 &957326326
 GameObject:
@@ -3221,7 +3476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -3293,7 +3548,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 
+          id: 4bcc10da54460fc499d76dec0e4c381d|Assets/it_trey_avatar_vrchat/files/hiphop
+            dancing.anim
           objRef: {fileID: 7400000, guid: 4bcc10da54460fc499d76dec0e4c381d, type: 2}
 --- !u!1 &1028446152
 GameObject:
@@ -4039,7 +4295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -4123,6 +4379,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1541342378}
   - component: {fileID: 1541342379}
+  - component: {fileID: 1541342380}
+  - component: {fileID: 1541342381}
+  - component: {fileID: 1541342382}
   m_Layer: 0
   m_Name: shirt
   m_TagString: Untagged
@@ -4254,6 +4513,279 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.008588985, y: 0.28649652, z: -0.051333256}
     m_Extent: {x: 0.47253346, y: 0.38941664, z: 0.2099613}
   m_DirtyAABB: 0
+--- !u!114 &1541342380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541342377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1426.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8361654616956076068
+  references:
+    version: 2
+    RefIds:
+    - rid: 8361654616956076068
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/Wakanda Shirt
+        state:
+          actions:
+          - rid: 8361654616956076069
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8361654616956076069
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1541342379}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c2190831f3092f64dbf194324820cd90|Assets/avatar_outfits/Shirts/Mat_Shirt_Wakanda.mat
+          objRef: {fileID: 2100000, guid: c2190831f3092f64dbf194324820cd90, type: 2}
+--- !u!114 &1541342381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541342377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1426.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8361654616956076070
+  references:
+    version: 2
+    RefIds:
+    - rid: 8361654616956076070
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/HipHop Shirt
+        state:
+          actions:
+          - rid: 8361654616956076071
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8361654616956076071
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1541342379}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4b8bb8baa3869d945bbae9f9e22c84fb|Assets/avatar_outfits/Shirts/HipHop.mat
+          objRef: {fileID: 2100000, guid: 4b8bb8baa3869d945bbae9f9e22c84fb, type: 2}
+--- !u!114 &1541342382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541342377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1426.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8361654616956076072
+  references:
+    version: 2
+    RefIds:
+    - rid: 8361654616956076072
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/SynergyGroup Shirt
+        state:
+          actions:
+          - rid: 8361654616956076073
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8361654616956076073
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1541342379}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4441625385a40bf4a8340c6cfbbe7ed3|Assets/avatar_outfits/Shirts/SynergyGroup1.mat
+          objRef: {fileID: 2100000, guid: 4441625385a40bf4a8340c6cfbbe7ed3, type: 2}
 --- !u!1 &1552846520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4332,7 +4864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -4452,7 +4984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -4642,7 +5174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1417.0
+  vrcfuryVersion: 1.1426.0
   somethingIsBroken: 0
   config:
     features: []
@@ -4953,6 +5485,12 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.004466787, y: -0.50456816, z: -0.036976412}
     m_Extent: {x: 0.37369955, y: 0.56805414, z: 0.23733057}
   m_DirtyAABB: 0
+--- !u!1 &1760982582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -86660355763864230, guid: 19d450027e1f0c04fb2acd832cf17b42,
+    type: 3}
+  m_PrefabInstance: {fileID: 861827401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1796551065
 GameObject:
   m_ObjectHideFlags: 0
@@ -4984,6 +5522,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 801193759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1806989837 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5433269313094510252, guid: 19d450027e1f0c04fb2acd832cf17b42,
+    type: 3}
+  m_PrefabInstance: {fileID: 861827401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806989838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760982582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1426.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8361654616956076065
+  references:
+    version: 2
+    RefIds:
+    - rid: 8361654616956076065
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/Wakanda Shirt
+        state:
+          actions:
+          - rid: 8361654616956076067
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8361654616956076067
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1806989837}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c2190831f3092f64dbf194324820cd90|Assets/avatar_outfits/Shirts/Mat_Shirt_Wakanda.mat
+          objRef: {fileID: 2100000, guid: c2190831f3092f64dbf194324820cd90, type: 2}
 --- !u!1 &1827069568
 GameObject:
   m_ObjectHideFlags: 0
